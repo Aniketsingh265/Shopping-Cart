@@ -1,0 +1,41 @@
+.products {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 6px;
+    width: 130px;
+}
+
+.card button {
+    margin-top: 6px;
+    width: 100%;
+    cursor: pointer;
+}
+
+#cart li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 0;
+    border-bottom: 1px solid #eee;
+}
+
+#cart li .name {
+    flex: 1;
+}
+
+.qty-btn {
+    width: 24px;
+    cursor: pointer;
+}
+
+.total {
+    font-weight: 700;
+    font-size: 18px;
+}
