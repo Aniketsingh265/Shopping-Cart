@@ -2,7 +2,9 @@ const products = [
     { id: 1, name: "Shirt", price: 2000},
     { id: 2, name: "Bat", price: 1500 },
     { id: 3, name: "Shoes", price: 4000 },
-    {id : 4, name : "T-Shirts", price : 1000}
+    {id : 4, name : "T-Shirts", price : 1000},
+    {id : 5, name : "Cap", price : 300},
+    {id : 6, name : "Saree", price : 1200}
 ];
 
 let cart = []; // { id, name, price, qty }
